@@ -89,6 +89,10 @@ a {
   color: var(--blanco);
 }
 
+.listadoProyectos{
+  color: var(--negro);
+}
+
 @media (min-width: 768px) {
   .contenedor-app {
       display: flex;
