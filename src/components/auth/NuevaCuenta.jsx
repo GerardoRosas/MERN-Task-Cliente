@@ -21,6 +21,7 @@ const NuevaCuenta = (props) => {
         if(mensaje){
             mostrarAlerta(mensaje.msg, mensaje.categoria);
         }
+        //eslint-disable-next-line
     }, [mensaje, autenticado, props.history])
 
 
@@ -58,7 +59,7 @@ const NuevaCuenta = (props) => {
         }
 
         //Los dos password sean iguales
-        if(password != confirmar){
+        if(password !== confirmar){
             mostrarAlerta('Los passwords no son iguales' , 'alerta-error')
         }
 
